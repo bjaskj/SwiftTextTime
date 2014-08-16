@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A3639C199F3C10009CD5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3639B199F3C10009CD5D4 /* AppDelegate.swift */; };
+		91A3639E199F3C10009CD5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A3639D199F3C10009CD5D4 /* ViewController.swift */; };
+		91A363A1199F3C10009CD5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A3639F199F3C10009CD5D4 /* Main.storyboard */; };
+		91A363A3199F3C10009CD5D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A363A2199F3C10009CD5D4 /* Images.xcassets */; };
+		91A363AF199F3C10009CD5D4 /* TextTimeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A363AE199F3C10009CD5D4 /* TextTimeAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91A363A9199F3C10009CD5D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A3638E199F3C10009CD5D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A36395199F3C10009CD5D4;
+			remoteInfo = TextTimeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91A36396199F3C10009CD5D4 /* TextTimeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextTimeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A3639A199F3C10009CD5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A3639B199F3C10009CD5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91A3639D199F3C10009CD5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91A363A0199F3C10009CD5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91A363A2199F3C10009CD5D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91A363A8199F3C10009CD5D4 /* TextTimeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTimeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A363AD199F3C10009CD5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91A363AE199F3C10009CD5D4 /* TextTimeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTimeAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A36393199F3C10009CD5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A363A5199F3C10009CD5D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91A3638D199F3C10009CD5D4 = {
+			isa = PBXGroup;
+			children = (
+				91A36398199F3C10009CD5D4 /* TextTimeApp */,
+				91A363AB199F3C10009CD5D4 /* TextTimeAppTests */,
+				91A36397199F3C10009CD5D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91A36397199F3C10009CD5D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A36396199F3C10009CD5D4 /* TextTimeApp.app */,
+				91A363A8199F3C10009CD5D4 /* TextTimeAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A36398199F3C10009CD5D4 /* TextTimeApp */ = {
+			isa = PBXGroup;
+			children = (
+				91A3639B199F3C10009CD5D4 /* AppDelegate.swift */,
+				91A3639D199F3C10009CD5D4 /* ViewController.swift */,
+				91A3639F199F3C10009CD5D4 /* Main.storyboard */,
+				91A363A2199F3C10009CD5D4 /* Images.xcassets */,
+				91A36399199F3C10009CD5D4 /* Supporting Files */,
+			);
+			path = TextTimeApp;
+			sourceTree = "<group>";
+		};
+		91A36399199F3C10009CD5D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91A3639A199F3C10009CD5D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91A363AB199F3C10009CD5D4 /* TextTimeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				91A363AE199F3C10009CD5D4 /* TextTimeAppTests.swift */,
+				91A363AC199F3C10009CD5D4 /* Supporting Files */,
+			);
+			path = TextTimeAppTests;
+			sourceTree = "<group>";
+		};
+		91A363AC199F3C10009CD5D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91A363AD199F3C10009CD5D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A36395199F3C10009CD5D4 /* TextTimeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A363B2199F3C10009CD5D4 /* Build configuration list for PBXNativeTarget "TextTimeApp" */;
+			buildPhases = (
+				91A36392199F3C10009CD5D4 /* Sources */,
+				91A36393199F3C10009CD5D4 /* Frameworks */,
+				91A36394199F3C10009CD5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextTimeApp;
+			productName = TextTimeApp;
+			productReference = 91A36396199F3C10009CD5D4 /* TextTimeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91A363A7199F3C10009CD5D4 /* TextTimeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A363B5199F3C10009CD5D4 /* Build configuration list for PBXNativeTarget "TextTimeAppTests" */;
+			buildPhases = (
+				91A363A4199F3C10009CD5D4 /* Sources */,
+				91A363A5199F3C10009CD5D4 /* Frameworks */,
+				91A363A6199F3C10009CD5D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A363AA199F3C10009CD5D4 /* PBXTargetDependency */,
+			);
+			name = TextTimeAppTests;
+			productName = TextTimeAppTests;
+			productReference = 91A363A8199F3C10009CD5D4 /* TextTimeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A3638E199F3C10009CD5D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Bjarte Skjørestad";
+				TargetAttributes = {
+					91A36395199F3C10009CD5D4 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					91A363A7199F3C10009CD5D4 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 91A36395199F3C10009CD5D4;
+					};
+				};
+			};
+			buildConfigurationList = 91A36391199F3C10009CD5D4 /* Build configuration list for PBXProject "TextTimeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91A3638D199F3C10009CD5D4;
+			productRefGroup = 91A36397199F3C10009CD5D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A36395199F3C10009CD5D4 /* TextTimeApp */,
+				91A363A7199F3C10009CD5D4 /* TextTimeAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91A36394199F3C10009CD5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A363A1199F3C10009CD5D4 /* Main.storyboard in Resources */,
+				91A363A3199F3C10009CD5D4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A363A6199F3C10009CD5D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A36392199F3C10009CD5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A3639E199F3C10009CD5D4 /* ViewController.swift in Sources */,
+				91A3639C199F3C10009CD5D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A363A4199F3C10009CD5D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A363AF199F3C10009CD5D4 /* TextTimeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91A363AA199F3C10009CD5D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A36395199F3C10009CD5D4 /* TextTimeApp */;
+			targetProxy = 91A363A9199F3C10009CD5D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91A3639F199F3C10009CD5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A363A0199F3C10009CD5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91A363B0199F3C10009CD5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91A363B1199F3C10009CD5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91A363B3199F3C10009CD5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TextTimeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91A363B4199F3C10009CD5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TextTimeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91A363B6199F3C10009CD5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextTimeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextTimeApp.app/TextTimeApp";
+			};
+			name = Debug;
+		};
+		91A363B7199F3C10009CD5D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextTimeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextTimeApp.app/TextTimeApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A36391199F3C10009CD5D4 /* Build configuration list for PBXProject "TextTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A363B0199F3C10009CD5D4 /* Debug */,
+				91A363B1199F3C10009CD5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A363B2199F3C10009CD5D4 /* Build configuration list for PBXNativeTarget "TextTimeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A363B3199F3C10009CD5D4 /* Debug */,
+				91A363B4199F3C10009CD5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91A363B5199F3C10009CD5D4 /* Build configuration list for PBXNativeTarget "TextTimeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A363B6199F3C10009CD5D4 /* Debug */,
+				91A363B7199F3C10009CD5D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A3638E199F3C10009CD5D4 /* Project object */;
+}
